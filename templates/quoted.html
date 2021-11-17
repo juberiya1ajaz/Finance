@@ -1,0 +1,22 @@
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+<div class="f">
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td class="vert-align">{{ name }}</td>
+                <td class="vert-align">{{ price }}</td>
+            </tr>
+        </table>
+    <h5>A share of {{ name }} ({{ symbol }})  is worth {{ (price) }}.</h5>
+</div>
+{% endblock %}
