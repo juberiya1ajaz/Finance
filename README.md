@@ -19,5 +19,5 @@ Implemented a web application that enables the user can "buy" and "sell" stocks,
 <li>implementation of index in such a way that it displays an HTML table summarizing, for the user currently logged in, which stocks the user owns, the numbers of shares owned, the current price of each stock, and the total value of each holding (i.e., shares times price). Also display the user’s current cash balance along with a grand total (i.e., stocks' total value plus cash).
 <li> implementation of history in such a way that it displays an HTML table summarizing all of a user’s transactions ever, listing row by row each and every buy and every sell.
 <li> implementation of check in such a way that  it checks whether a username is unavailable or not. 
-<h4> there are extra features that i had added like extra password requirements and upgraded its front-end</h4>
+
 
